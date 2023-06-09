@@ -91,7 +91,7 @@ button {
   background-color: #3882f6;
   border-radius: 10px;
   height: 40px;
-  width: 100px;
+  width: 125px;
   border: 0px;
   margin-right: 300px;
 }
@@ -200,12 +200,18 @@ p#title {
 
 }
 
-.call-to-action button {
-  border: 2px solid white;
-  font-weight: 700;
-  width: 125px;
-  align-self: center;
-}
+
+#call-button {
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    border: 2px solid white;
+    font-weight: 700;
+    width: 125px;
+    align-self: center;
+    margin-right: 0;
+  }
+
 
 footer {
   display: flex;
